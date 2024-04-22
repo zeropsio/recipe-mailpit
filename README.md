@@ -6,7 +6,7 @@ services:
     type: go@1
     minContainers: 1
     buildFromGit: https://github.com/zeropsio/recipe-mailpit
-    enableZeropsSubdomain: true
+    enableSubdomainAccess: true
     ports:
       - port: 8025
       - port: 1025
