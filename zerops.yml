@@ -5,6 +5,11 @@ zerops:
         - echo "mailpit"
       deploy: ./
     run: 
+      base: go@1
+      ports:
+        - port: 8025
+          httpSupport: true
+        - port: 1025
       prepareCommands:
         - sudo bash < <(curl -sL https://raw.githubusercontent.com/axllent/mailpit/develop/install.sh)
       start: mailpit
