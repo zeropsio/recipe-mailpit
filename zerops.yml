@@ -3,7 +3,7 @@ zerops:
     build:
       buildCommands:
         - echo "mailpit"
-      deploy: ./
+      deployFiles: ./
     run: 
       base: go@1
       ports:
