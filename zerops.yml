@@ -3,7 +3,7 @@ zerops:
     build:
       buildCommands:
         - echo "mailpit"
-      deploy: ./
+      deployFiles: ./
     run: 
       prepareCommands:
         - sudo bash < <(curl -sL https://raw.githubusercontent.com/axllent/mailpit/develop/install.sh)
