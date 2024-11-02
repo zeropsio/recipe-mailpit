@@ -5,7 +5,7 @@ Import as a service to an existing Zerops project.
 ```yaml
 services:
   - hostname: mailpit
-    type: go@1
+    type: alpine@latest
     buildFromGit: https://github.com/zeropsio/recipe-mailpit
     enableSubdomainAccess: true
 ```
