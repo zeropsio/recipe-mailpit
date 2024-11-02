@@ -5,7 +5,7 @@ zerops:
         - sh download-mailpit.sh
       deployFiles: ./mailpit
     run: 
-      base: go@1
+      base: alpine@3.20
       ports:
         - port: 8025
           httpSupport: true
