@@ -1,4 +1,4 @@
-# Zerops Mailpit
+# Zerops + Mailpit
 
 Import as a service to an existing Zerops project.
 
