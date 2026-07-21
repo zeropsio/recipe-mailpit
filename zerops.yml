@@ -10,7 +10,7 @@ zerops:
           port: 8025
           path: /readyz
     run:
-      base: alpine@3.20
+      base: alpine@3.24
       healthCheck:
         httpGet:
           port: 8025
